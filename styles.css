@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f3f4f6;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 1rem;
+}
+
+header {
+  text-align: center;
+}
+
+.title {
+  color: orange;
+  font-size: 35px;
+  font-weight: 400;
+}
+
+.btn-sec {
+  padding: 2rem;
+  text-align: center;
+}
+
+.btn {
+  background-color: orange;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  cursor: pointer;
+}
+
+.data-sec {
+  width: 60%;
+  margin: auto;
+}
+
+.data-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem 3rem;
+}
+
+.country-name, .languageNameP {
+  width: 20%;
+}
+
+.population-bar-container, .lang-bar-container {
+  width: 60%;
+  margin: 0 1rem;
+}
+
+.population-bar,
+.lang-bar {
+  background-color: orange;
+  height: 30px;
+  margin: 0 2rem;
+}
+
+.population-value, .spokenByP {
+  margin-left: 10px;
+  width: 20%;
+}
